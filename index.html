@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>My Resume</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="image/photo.JPG" alt="user" />
+      </div>
+      <ul>
+        <li>Date of Birth<br />26<sup>th</sup> January 1994</li>
+        <li><i class="fa fa-address-book" aria-hidden="true"></i> Current Location<br />Ghazibad, Uttar Pradesh</li>
+        <li>
+          Education<br />
+          <table id="mytable">
+            <tr>
+              <td>B.tech-C.S.E</td>
+              <td>7.2</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>12<sup>th</sup>, CBSE</td>
+              <td>6.9</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>10<sup>th</sup>, CBSE</td>
+              <td>6.8</td>
+              <td>2010</td>
+            </tr>
+          </table>
+        </li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i> Gmail<br /><a>hshekhar216@gmail.com</a></li>
+        <li><i class="fa fa-linkedin-square" aria-hidden=""></i> LinkedIn<br /><a
+            href="https://www.linkedin.com/in/ui-ux-fronted-designer/"
+            >https://www.linkedin.com/in/ui-ux-fronted-designer/</a
+          >
+        </li>
+        <li><i class="fa fa-github" aria-hidden="true"></i>
+            GitHub<br /><a href="https://github.com/himanshu-ui-devloper"
+            >https://github.com/himanshu-ui-devloper</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+
+      <h1>Resume</h1>
+
+      <p><h4>Himanshu Shekhar</h4>(Software Engineer)</p>
+      
+
+      <button class="cta-btn" id="open">KEY SKILLS</button>
+    </header>
+
+    <div class="container">
+ <h2>OBJECTIVE</h2>
+      <p>
+        Seeking an opportunity to work in a challenging environment, learn new skills and enhance the same with the company's growth and development.
+      </p>
+      <h2>SKILL SET</h2>
+
+      <ul>
+        <li>Over 3 years of extensive experience in the field of Web Applications development using <b>HTML5, CSS(2/3), Bootstrap 4, Javascript, Angular 7/8, NodeJs, Express, and MongoDB.</b></li><br/>
+        <li>To design and develop interactivity and UI integration for clients using storyboards provided</li><br/>
+        <li>Creating estimates, breakdown of costs and efforts, functionality specifications, project schedule creation, and playing a helping hand role in a Project Life Cycle.</li><br/>
+        <li>Have also working experience with QA team to developing test cases, test plans, bug tracking and recording defects in the QA environment and preparing summary reports.</li><br/>
+        <li>Create various tools using excel and batch files as per project requirement and saved development and testing team effort.</li><br/>
+        <li>Mentoring and Training of new members in the team and working with multiple vendors for a project.</li><br/>
+        <li>Involved in resolving issues, providing daily status reports to lead and Weekly status report to client for better connectivity, and ensuring timely deliveries.</li>
+      </ul>
+
+      <h2>Project Summary</h2>
+      <div class="project1">
+      <p><b>Title:</b> E-learning FrameWork<br/><b>Environment & Technologies</b>: Visual Studio code, Angular 7, Bootstrap, Typescript<br>
+  <b>Client Name:</b> K12 Strem and Treading Education<br/>
+<b>Period:</b> August 2019 to till present<br/>
+<b>Team Size:</b> 10<br/>
+<b>Project Description:</b> Creating a new application for E-book publisher This application based on Angular framework which suitable for every environment. Also Developed interactive and simulation for student. Where student drag, drop containers, instruments, materials and then perform experiments.
+</p>
+</div>
+<div class="project2">
+  <p><b>Title:</b> Image poptropica<br/>
+<b>Role:</b> Image Editing<br/>
+<b>Client Name:</b> Pearson UK</br>
+<b>Team Size:</b> 2<br/>
+<b>Project Description:</b>
+<ul>
+<li>In this project we are work completely on PhotoshopCS6, Illustrator and Acrobat pro.</li>
+<li>In which we extract different images from the pdf’s in different specification like stroke different size etc.</li>
+<li>UI implementation collection of image with responsive feature. Using Bootstrap and CSS.</li>
+</ul>
+</p>
+</div>
+<div class="project1">
+  <p><b>Title:</b> PlayWise<br/>
+<b>Client Name:</b> Pearson UK</br>
+<b>Team Size:</b> 12<br/>
+<b>Environment & Technologies</b>: Visual Studio code, Angular 7, Bootstrap, Typescript, NodeJS, ExpressJS, MongoDB<br/>
+<b>Responsibilities:</b>
+<ul>
+<li>Responsible for implementing design and UI assets.</li>
+<li>Developing the Restful APIs using express JS</li>
+<li>Hosting the application using IIS for facebook platform.</li>
+<li>Integrated firebase in backend code.</li>
+<li>Integration of third party-plugins</li>
+</ul>
+
+<b>Project Description:</b> PlayWise is a Quiz Game App to play trivia, giving a chance to user to win coupons, gift cards, cash rewards on daily basis. User can chalenge their friends or stranger through multiplayer functionality. 
+
+</p>
+</div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header"><h2 class="skill-heading">Key Skills</h2></div>
+        <table id="skill">
+          <tr>
+            <th>Primary Skill</th>
+            <th>Secondary Skill </th>
+            <th>Other Skill</th>
+          </tr>
+          <tr>
+            <td>Angular 7+ Framework</td>
+            <td>Html5, CSS3, Bootstrap3,4</td>
+            <td>GIT</td>
+          </tr>
+          <tr>
+            <td>Node Js, Express Js</td>
+            <td>MongoDB, SQL</td>
+            <td>JIRA</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Google Firebase</td>
+            <td>JSON</td>
+          </tr>
+         
+          </table>
+           
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://use.fontawesome.com/11ac03ef15.js"></script>
+  </body>
+</html>
